@@ -3,30 +3,37 @@ title: Home
 layout: home
 ---
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+# Taco Docs
+A place to keep track of my progress on project 'taco'.
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+ChatGPT aka ***Meg*** will help me on this journey.
 
-More specifically, the created site:
+---
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+# So...what is 'taco'?
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+> A School Nutrition Program Management Application.
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
+Taco is a comprehensive and user-friendly software solution designed to revolutionize school nutrition programs. Our application aims to enhance operational efficiency, ensure food safety and compliance, and optimize the management of school kitchen operations and equipment maintenance.
++ aims to streamline and enhance the operational aspects of a school nutrition program while incorporating inspections to ensure compliance with food safety and hygiene standards.
++ It focuses on key features related to equipment service, kitchen and appliance maintenance, inventory management, inspections, and reporting for operational efficiency and compliance.
++ It allows for the testing and validation of key features, gathering user feedback, and making iterative improvements based on user requirements and priorities.
++ Can serve as a solid foundation to expand the application with additional features and enhancements in subsequent iterations.
 
-To get started with creating a site, just click "[use this template]"!
+## Objectives
 
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#hosting-your-docs-from-an-existing-project-repo) in the template README.
+1. Streamlined Operations: The main objective of the School Nutrition Program Management Application is to streamline day-to-day operations for school nutrition programs. It aims to provide efficient management of kitchen equipment, maintenance logs, inventory (supplies and equipment), and budget, enabling seamless operations.
+2. Effective Inspections and Compliance: The application seeks to enhance the inspection process, allowing for comprehensive inspections of kitchen hygiene, food safety, and regulatory compliance. It aims to facilitate the creation of custom inspection checklists and generate detailed inspection reports with actionable recommendations.
+3. Improved Data-driven Decision Making: By providing an insightful dashboard with real-time operational and inspection data, the application empowers stakeholders to make data-driven decisions for program optimization and compliance.
+4. User-Friendly Interface: The UI/UX design objective is to create a user-friendly interface that is visually appealing and easy to navigate. The application aims to understand user needs and preferences through research, resulting in an intuitive user experience.
 
-----
+## Deliverables
 
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
-
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
+1. Functional Application: The primary deliverable is a fully functional School Nutrition Program Management Application that includes features such as equipment service management, kitchen and appliance maintenance, inventory management (supplies and equipment), budget management, inspections, inspection scheduling, compliance tracking, user management and authentication, and a dashboard with real-time operational and inspection data.
+2. Inspection Reports: The application should generate detailed inspection reports, providing comprehensive findings and recommendations to address any identified issues or non-compliance.
+3. Dashboard and Analytics: A user-friendly dashboard with real-time data and analytics will be delivered to facilitate data-driven decision-making for stakeholders.
+4. User Interface Designs: Deliver high-fidelity mockups and design assets for the user interface, ensuring a visually appealing and intuitive user experience.
+5. Documentation and Training Materials: Provide documentation, including user manuals and training materials, to assist users in understanding and utilizing the application effectively.
+6. Testing and Bug Reports: Conduct thorough testing and deliver a comprehensive bug report to ensure the application's quality and reliability.
+7. Database Schema and Configuration: The database specialist will deliver the database schema and ensure the proper configuration of the selected database management system (e.g., PostgreSQL).
+8. Deployment and Implementation Plan: A deployment and implementation plan will be delivered to guide the installation and launch of the application in the target environment.
