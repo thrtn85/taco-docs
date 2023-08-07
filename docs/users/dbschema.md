@@ -1,0 +1,12 @@
+---
+layout: default
+title: DB Schema
+has_children: true
+nav_order: 1
+---
+
+# Design and implement the database schema for user management and authentication
+
+- models
+- signals
+

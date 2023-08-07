@@ -1,13 +1,13 @@
 ---
 layout: default
-title: 08-06-23
-nav_order: 4
+title: Models
+parent: DB Schema
+nav_order: 2
 ---
 
-# Design and implement the database schema for user management and authentication
-
-models.py
 ```
+# models.py
+
 from django.db import models
 from django.conf import settings
 # Create your models here.
@@ -35,4 +35,3 @@ Let's break down the code to understand its purpose:
    - `on_delete=models.CASCADE`: This argument specifies the behavior when the referenced user is deleted. In this case, `models.CASCADE` means that when a user is deleted, the corresponding `UserRegistrationModel` instance will also be deleted.
 
 The purpose of this model seems to be to extend the default user model in the Django application and add additional information related to user registration. By using a one-to-one relationship, it ensures that each user has only one associated registration instance, and it allows you to keep the user-related data separate from the default user model while maintaining a direct relationship between them.
-
