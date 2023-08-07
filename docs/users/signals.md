@@ -2,7 +2,7 @@
 layout: default
 title: Signals
 parent: DB Schema
-nav_order: 3
+nav_order: 4
 ---
 
 Q: When would `signals.py` be used in this case?
